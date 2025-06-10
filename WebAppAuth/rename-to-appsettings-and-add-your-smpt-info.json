@@ -1,0 +1,21 @@
+{
+   "AppSettings": {
+       
+        "EmailFrom": "YourEmailFrom",
+        "SmtpHost": "YourSmtpHost",
+        "SmtpPort": 587,
+        "SmtpUser": "YourSmtpUser",
+        "SmtpPass": "YourSmtpPassword"
+   },
+   
+  "ConnectionStrings": {
+    "DefaultConnection": "DataSource=YourSQLite"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
