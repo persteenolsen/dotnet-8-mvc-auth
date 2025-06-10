@@ -1,4 +1,4 @@
-ASP.NET Core MVC Web Application by .NET 8 with Individual Accounts towards a SQLite Database
+ASP.NET Core Identity MVC Web Application by .NET 8 with Individual Accounts towards a SQLite Database
 
 Last updated:
 
