@@ -31,7 +31,7 @@ dotnet tool install --global dotnet-aspnet-codegenerator --version 8.0.0
 
 # Add the Package to the .csproj of the Web Application
 
-<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+"PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3"" 
 
 # Scarffold files Register, Login, Logout and RegisterConfirmation for the Account
 
