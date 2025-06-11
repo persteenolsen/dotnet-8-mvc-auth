@@ -1,15 +1,20 @@
+# dotnet-8-mvc-authentication
+
 ASP.NET Core Identity MVC Web Application by .NET 8 with Individual Accounts towards a SQLite Database
 
 Last updated:
 
-- 10-06-2025
+- 11-06-2025
 
 # Tech used for creating the Web App
 
-- A .NET 8 MVC Web Application
-- User Accounts
-- SQLite 
-- A traditional Webhotel for hosting
+- .NET 8 MVC Web Application
+- ASP.NET Core Identity
+- SQLite as the Database
+- Entity Framework Core as ORM
+- MVC design pattern as software architecture pattern
+- Bootstrap for making the Web App mobile friendly  
+- Traditional Webhotel for hosting
 - VS Code
 
 # Create a global json if needed
