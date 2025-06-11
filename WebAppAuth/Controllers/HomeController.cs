@@ -1,4 +1,7 @@
 using System.Diagnostics;
+
+// Used for protect controller / actions by Login
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebAppAuth.Models;
 
@@ -23,8 +26,16 @@ public class HomeController : Controller
     {
         return View();
     }
- 
+    
+    
     public IActionResult Privacy()
+    {
+        return View();
+    }
+
+    // This Action calls the View only if the User is logged in
+    [Authorize]
+    public IActionResult Protected()
     {
         return View();
     }
