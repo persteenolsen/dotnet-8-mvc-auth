@@ -69,6 +69,14 @@ If Migration exits run:
 
 dotnet ef database update
 
+# Things to be aware of
+
+At my Webhotel they are using two different SMTP Servers:
+
+- Using one SMTP Server at the Webhotel for production ( local )
+
+- Using another SMTP Server when the Web App is running remote like Azure or my local PC Developing
+
 
 
 
