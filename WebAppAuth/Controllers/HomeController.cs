@@ -28,6 +28,12 @@ public class HomeController : Controller
     }
     
     
+    public IActionResult Me()
+    {
+        return View();
+    }
+    
+    
     public IActionResult Privacy()
     {
         return View();
