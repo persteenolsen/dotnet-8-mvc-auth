@@ -4,7 +4,7 @@ ASP.NET Core Identity MVC Web Application by .NET 8 with Individual Accounts tow
 
 Last updated:
 
-- 03-07-2025
+- 26-07-2025
 
 # Tech used for creating the Web App
 
