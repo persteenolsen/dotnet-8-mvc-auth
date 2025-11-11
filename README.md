@@ -77,6 +77,33 @@ At my Webhotel they are using two different SMTP Servers:
 
 - Using another SMTP Server when the Web App is running remote like Azure or my local PC Developing
 
+# Tip and Tricks
+
+When loading Razor files I have had an issue dealing with a popup msg in VS Code:
+
+"Request textDocument/inlayHint failed. Message: Razor source generator is not ... referenced Code: -32000 ... "
+
+To prevent the msg to show up I uninstalled the VS Code extentions:
+
+- C# Dev Kit
+
+- C#
+
+- .NET install Tool
+
+Then closed VS Code and deleted the obj and bin and opened VS Code and installed the extentions again
+
+Finally I changed settings in the C# extention like below:
+
+- Extentions - C# - LSP Server - Dotnet Server - Enabled the "Supress LSP Error Toast" - Restaert VS Code
+
+Thats it :-)
+
+
+
+
+
+
 
 
 
