@@ -93,9 +93,15 @@ To prevent the msg to show up I uninstalled the VS Code extentions:
 
 Then closed VS Code and deleted the obj and bin and opened VS Code and installed the extentions again
 
-Finally I changed settings in the C# extention like below:
+I changed settings in the C# extention like below:
 
-- Extentions - C# - LSP Server - Dotnet Server - Enabled the "Supress LSP Error Toast" - Restaert VS Code
+- Extentions - C# - LSP Server - Dotnet Server - Enabled the "Supress LSP Error Toast" - Restart VS Code
+
+Finally I deleted the extention cache "csdevkit" by the path:
+
+- C: Users \ .vscode \ extensions \ csdevkit
+
+Restart VS Code
 
 Thats it :-)
 
